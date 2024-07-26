@@ -1,6 +1,6 @@
 # Agent-DA
 
-## Vscode Environment Setup
+## Environment Setup
 ```
 1. conda activate DEGREE  # Environment for training DEGREE
 2. conda activate DEGREE-master  # Environment for training the adjudicator
