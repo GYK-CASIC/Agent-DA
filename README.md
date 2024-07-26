@@ -9,7 +9,7 @@
 
 ## Environment Requirements of DEGREE
 - Python==3.8
-- PyTorch==1.8.0
+- torch==1.8.0
 - transformers==3.1.0 
 - protobuf==3.17.3
 - tensorboardx==2.4
@@ -21,7 +21,7 @@
 - ipdb==0.13.9
 
 ## Environment Requirements of DEGREE-master
-- torch
+- torch==1.9.0
 - transformers==4.22.1
 - datasets==2.4.0
 - evaluate==0.2.2
@@ -34,26 +34,13 @@
 - torch==1.7.1
 - transformers==4.4.2
 - anytree==2.8.0
-- tensorboard
-- scikit-learn
-- seqeval
-- psutil
+- scikit-learn==1.1.2
 - sacrebleu==1.4.14
-- rouge-score
-- tensorflow_datasets
-- matplotlib
 - git-python==1.0.3
-- faiss-cpu
-- streamlit
 - elasticsearch
-- nltk~=3.5
-- pandas
-- datasets >= 1.1.3
-- fire
-- pytest
-- conllu
+- nltk==3.5
+- datasets>=1.1.3
 - sentencepiece==0.1.92
-- protobuf
 - numpy==1.22
 - tabulate==0.8.7
 - filelock==3.0.12
@@ -68,13 +55,13 @@ Our preprocessing mainly adapts [OneIE's](https://blender.cs.illinois.edu/softwa
 
 #### `ace05e`
 1. Prepare data processed from [DyGIE++](https://github.com/dwadden/dygiepp#ace05-event).
-2. Place the processed data into the folder `processed_data/ace05e_dygieppformat`.
-3. Run `scripts/process_ace05e.sh`.
+2. Place the processed data into the folder `processed_data/ace05e_dygieppformat`
+3. Run `scripts/process_ace05e.sh`
 
 #### `ace05ep`
 1. Download ACE data from [LDC](https://catalog.ldc.upenn.edu/LDC2006T06).
 2. Run `scripts/process_ace05ep.sh`
-The above scripts will generate processed data (including the full training set and the low-resource sets) in `./processed_data`.
+The above scripts will generate processed data (including the full training set and the low-resource sets) in `./processed_data`
 
 ## Agent-DA for DEGREE
 ### Training DEGREE (End2end)
