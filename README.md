@@ -52,7 +52,7 @@
 - fire
 - pytest
 - conllu
-- sentencepiece != 0.1.92
+- sentencepiece==0.1.92
 - protobuf
 - numpy==1.22
 - tabulate==0.8.7
