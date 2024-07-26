@@ -33,12 +33,12 @@
 ## Environment Requirements of text2event
 - torch==1.7.1
 - transformers==4.4.2
-- anytree~=2.8.0
+- anytree==2.8.0
 - tensorboard
 - scikit-learn
 - seqeval
 - psutil
-- sacrebleu~=1.4.14
+- sacrebleu==1.4.14
 - rouge-score
 - tensorflow_datasets
 - matplotlib
@@ -55,10 +55,10 @@
 - sentencepiece != 0.1.92
 - protobuf
 - numpy==1.22
-- tabulate~=0.8.7
-- filelock~=3.0.12
-- dataclasses~=0.6
-- rich~=9.8.2
+- tabulate==0.8.7
+- filelock==3.0.12
+- dataclasses==0.6
+- rich==9.8.2
 
 ## Datasets
 We support `ace05e` and `ace05ep`
@@ -73,7 +73,7 @@ Our preprocessing mainly adapts [OneIE's](https://blender.cs.illinois.edu/softwa
 
 #### `ace05ep`
 1. Download ACE data from [LDC](https://catalog.ldc.upenn.edu/LDC2006T06).
-2. Run `scripts/process_ace05ep.sh`.
+2. Run `scripts/process_ace05ep.sh`
 The above scripts will generate processed data (including the full training set and the low-resource sets) in `./processed_data`.
 
 ## Agent-DA for DEGREE
@@ -113,7 +113,7 @@ Run `bash RLHF/judgement.sh`
 - This part outputs the samples filtered by the adjudicator and then adds them to the previously filtered samples.
 
 ### Constructing the Ranked Dataset and Training the Adjudicator
-1. Run `RLHF/processcopy.py`.
+1. Run `RLHF/processcopy.py`
 2. Run `RLHF/train_reward_model` to train the adjudicator.
 
 ## Agent-DA for Text2event
