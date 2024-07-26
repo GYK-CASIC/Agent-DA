@@ -67,13 +67,13 @@ We support `ace05e` and `ace05ep`
 Our preprocessing mainly adapts [OneIE's](https://blender.cs.illinois.edu/software/oneie/) released scripts with minor modifications. We deeply appreciate the contributions from the authors of the paper.
 
 #### `ace05e`
-1. Prepare data processed from [DyGIE++](https://github.com/dwadden/dygiepp#ace05-event)
-2. Place the processed data into the folder `processed_data/ace05e_dygieppformat`
-3. Run `scripts/process_ace05e.sh`
+1. Prepare data processed from [DyGIE++](https://github.com/dwadden/dygiepp#ace05-event).
+2. Place the processed data into the folder `processed_data/ace05e_dygieppformat`.
+3. Run `scripts/process_ace05e.sh`.
 
 #### `ace05ep`
-1. Download ACE data from [LDC](https://catalog.ldc.upenn.edu/LDC2006T06)
-2. Run `scripts/process_ace05ep.sh`
+1. Download ACE data from [LDC](https://catalog.ldc.upenn.edu/LDC2006T06).
+2. Run `scripts/process_ace05ep.sh`.
 The above scripts will generate processed data (including the full training set and the low-resource sets) in `./processed_data`.
 
 ## Agent-DA for DEGREE
@@ -113,7 +113,7 @@ Run `bash RLHF/judgement.sh`
 - This part outputs the samples filtered by the adjudicator and then adds them to the previously filtered samples.
 
 ### Constructing the Ranked Dataset and Training the Adjudicator
-1. Run `RLHF/processcopy.py`
+1. Run `RLHF/processcopy.py`.
 2. Run `RLHF/train_reward_model` to train the adjudicator.
 
 ## Agent-DA for Text2event
