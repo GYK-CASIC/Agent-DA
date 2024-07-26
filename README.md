@@ -1,4 +1,4 @@
-# Agent-DA: Enhancing Low-Resource Event Extraction with Collaborative Multi-Agent Data Augmentation
+# Agent-DA
 
 ## Vscode Environment Setup
 ```
