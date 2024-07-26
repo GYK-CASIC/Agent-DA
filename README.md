@@ -29,7 +29,7 @@
 - rich==12.5.1
 - scikit-learn==1.1.2
 - requests==2.28.1
-- 
+
 ## Environment Requirements of text2event
 - torch==1.7.1
 - transformers==4.4.2
@@ -150,11 +150,7 @@ If you find that the code is useful in your research, please consider citing our
 
 ```@article{Tian and Guo2024Agent-DA,
   title={Agent-DA: Enhancing Low-Resource Event Extraction with Collaborative Multi-Agent Data Augmentation},
-  author={Xuemeng Tian, Yikai Guo, Bin Ge, Xiaoguang Yuan, Hang Zang, Yuting Yang, Wenjun ke and Guozheng Li},
+  author={Xuemeng Tian, Yikai Guo, Bin Ge, Xiaoguang Yuan, Hang Zhang, Yuting Yang, Wenjun Ke and Guozheng Li},
   year={2024}
 }
 ```
-
----
-
-Translated the content into English as requested.
