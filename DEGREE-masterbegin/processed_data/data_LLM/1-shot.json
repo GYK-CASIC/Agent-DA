@@ -1,0 +1,720 @@
+[
+    {
+        "sentence": "The first sizable relief convoy arrived in Iraq during a sandstorm Wednesday as allied forces struggled to clear the way for more aid shipments, using dolphins to remove mines from waterways and hunting Iraqi fighters around the port of Umm Qasr.",
+        "events_info": [
+            {
+                "trigger_text": "arrived",
+                "event_type": "Movement:Transport",
+                "arguments": [
+                    {
+                        "text": "convoy",
+                        "role": "Vehicle"
+                    },
+                    {
+                        "text": "Iraq",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "port",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "forces",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "See for a confirmation of the electoral arithmetic: the states where Lincoln got an abolute majority of the popular vote (i.e., all the free states except Oregon, California, and New Jersey) were sufficient to bring him a majority in the Electoral College.",
+        "events_info": [
+            {
+                "trigger_text": "electoral",
+                "event_type": "Personnel:Elect",
+                "arguments": [
+                    {
+                        "text": "him",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "states",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "College",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Al-Douri taught international law at Baghdad University for over 30 years before becoming a diplomat in 1999, first at the United Nations in Geneva and since early 2001 at U.N. headquarters in New York.",
+        "events_info": [
+            {
+                "trigger_text": "becoming",
+                "event_type": "Personnel:Start-Position",
+                "arguments": [
+                    {
+                        "text": "Al-Douri",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "United Nations",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "headquarters",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "U.N",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "I nominate John K. for Virginia's first poet laureate.",
+        "events_info": [
+            {
+                "trigger_text": "nominate",
+                "event_type": "Personnel:Nominate",
+                "arguments": [
+                    {
+                        "text": "John K",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "I",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "the former governor of basra province also surrendered to coalition forces today.",
+        "events_info": [
+            {
+                "trigger_text": "former",
+                "event_type": "Personnel:End-Position",
+                "arguments": [
+                    {
+                        "text": "governor",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "basra province",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "basra province",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "two israeli helicopter air strikes against palestinian targets, hamas targets in gaza.",
+        "events_info": [
+            {
+                "trigger_text": "strikes",
+                "event_type": "Conflict:Attack",
+                "arguments": [
+                    {
+                        "text": "israeli",
+                        "role": "Attacker"
+                    },
+                    {
+                        "text": "gaza",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "helicopter",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "And my question is, after today's meeting in Paris, where France, Russia and Germany decided to not back a second resolution, who is not (UNINTELLIGIBLE)?",
+        "events_info": [
+            {
+                "trigger_text": "meeting",
+                "event_type": "Contact:Meet",
+                "arguments": [
+                    {
+                        "text": "Paris",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "France",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Russia",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Germany",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Giuliani's first marriage to his second cousin, Regina Peruggi, lasted about 14 years.",
+        "events_info": [
+            {
+                "trigger_text": "marriage",
+                "event_type": "Life:Marry",
+                "arguments": [
+                    {
+                        "text": "Giuliani",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "cousin",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "People familiar with Arafat's finances say the Palestinian leader sent Suha $200,000 a month out of the Palestinian Authority's budget for the Office of the President.",
+        "events_info": [
+            {
+                "trigger_text": "sent",
+                "event_type": "Transaction:Transfer-Money",
+                "arguments": [
+                    {
+                        "text": "leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Palestinian Authority",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Office",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Suha",
+                        "role": "Recipient"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "6:21 eastern time, 2:21 p.m. in iraq, iraqi protesters demonstrate outside a baghdad mosque, opposing what they call the u.s. occupation, and saying any new iraqi government must represent the people.",
+        "events_info": [
+            {
+                "trigger_text": "demonstrate",
+                "event_type": "Conflict:Demonstrate",
+                "arguments": [
+                    {
+                        "text": "mosque",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "protesters",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Just heard yesterday that Hewlett Packard is shutting down its plant in Eugene, (Thank you very much MS. Fiorina)and SUN Micro systems is all but gone from Oregon.",
+        "events_info": [
+            {
+                "trigger_text": "shutting down",
+                "event_type": "Business:End-Org",
+                "arguments": [
+                    {
+                        "text": "Eugene",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "plant",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Larry Klayman, chairman of Judicial Watch, which represent 14 survivors and victims' relatives who have filed a $1.5 billion federal lawsuit against Iraq in Washington, said his organization had served a subpoena on Al-Douri twice, on March 26 and March 28, but said he has not responded.",
+        "events_info": [
+            {
+                "trigger_text": "lawsuit",
+                "event_type": "Justice:Sue",
+                "arguments": [
+                    {
+                        "text": "Iraq",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "Washington",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "relatives",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "survivors",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "then the texas woman accused of hitting a man with her car, driving home about him stuck to her windshield and leaving him there to die.",
+        "events_info": [
+            {
+                "trigger_text": "die",
+                "event_type": "Life:Die",
+                "arguments": [
+                    {
+                        "text": "car",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "him",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "woman",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Had an armed civilian been inside the mall, perhaps he could have intervened before the suspect began injuring people before he ran out of ammo.",
+        "events_info": [
+            {
+                "trigger_text": "injuring",
+                "event_type": "Life:Injure",
+                "arguments": [
+                    {
+                        "text": "people",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "ammo",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "suspect",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "mall",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "House clearance Royal Marine style, troops from (UNINTELLIGIBLE) commando task to seek out the last pockets of Iraqi resistance in Umm Qasr go in hard to arrest suspected regime sympathizers and search for weapons.",
+        "events_info": [
+            {
+                "trigger_text": "arrest",
+                "event_type": "Justice:Arrest-Jail",
+                "arguments": [
+                    {
+                        "text": "sympathizers",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Umm Qasr",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "troops",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "the communications conditions once you're on mars, just to talk to people on earth, there's a 20 minute delay in the conversation.",
+        "events_info": [
+            {
+                "trigger_text": "talk",
+                "event_type": "Contact:Phone-Write",
+                "arguments": [
+                    {
+                        "text": "mars",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "you",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "people",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The Maharashtra officials are either incompetent fools, or worse- malicious fraudsters who conned an international comapny into building a state-of-the-art power plant for them at a cost of billions of dollars, and then refused payment, knowing the company has no legal recourse except lengthy international arbitration, and will likely sell the plant to them for a fraction of its true value.",
+        "events_info": [
+            {
+                "trigger_text": "sell",
+                "event_type": "Transaction:Transfer-Ownership",
+                "arguments": [
+                    {
+                        "text": "plant",
+                        "role": "Artifact"
+                    },
+                    {
+                        "text": "company",
+                        "role": "Seller"
+                    },
+                    {
+                        "text": "them",
+                        "role": "Buyer"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Six European countries have agreed to contribute troops to the British and Polish sectors to create an international stability force, the official said.",
+        "events_info": [
+            {
+                "trigger_text": "create",
+                "event_type": "Business:Start-Org",
+                "arguments": [
+                    {
+                        "text": "force",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "countries",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "sectors",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "lawyers in texas are trying to keep their client from becoming the 300th person executed in the state since 1982, when texas resumed capital punishment.",
+        "events_info": [
+            {
+                "trigger_text": "executed",
+                "event_type": "Justice:Execute",
+                "arguments": [
+                    {
+                        "text": "person",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "state",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "texas",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "the hearings are stopped when the judge, defense attorneys and prosecutors agree that coleman lied under oath and is a racist.",
+        "events_info": [
+            {
+                "trigger_text": "hearings",
+                "event_type": "Justice:Trial-Hearing",
+                "arguments": [
+                    {
+                        "text": "judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "prosecutors",
+                        "role": "Prosecutor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Here are some of the fine achievements of the terrorist Marwan Barghouti Marwan Barghouti (born June 6, 1958) is a Palestinian leader from the West Bank and a leader of the Fatah movement that forms the backbone of the Palestinian Authority and the Palestine Liberation Organization (PLO).",
+        "events_info": [
+            {
+                "trigger_text": "born",
+                "event_type": "Life:Be-Born",
+                "arguments": [
+                    {
+                        "text": "Marwan Barghouti",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "West Bank",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The lawyer of former Zambian president Frederick Chiluba was reprimanded by a Lusaka magistrate when his client failed to appear in court on theft charges Friday.",
+        "events_info": [
+            {
+                "trigger_text": "charges",
+                "event_type": "Justice:Charge-Indict",
+                "arguments": [
+                    {
+                        "text": "client",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "magistrate",
+                        "role": "Prosecutor"
+                    },
+                    {
+                        "text": "court",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The court convicted the paper of violating article 25 of the Press Law, which prohibits the publication of material that defames religion or incites religiously unacceptable activity.",
+        "events_info": [
+            {
+                "trigger_text": "convicted",
+                "event_type": "Justice:Convict",
+                "arguments": [
+                    {
+                        "text": "court",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "paper",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "They sentenced him to death.",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "They",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "him",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "My uncle declared bankruptcy in 2003 and his case closed in June 2004.",
+        "events_info": [
+            {
+                "trigger_text": "bankruptcy",
+                "event_type": "Business:Declare-Bankruptcy",
+                "arguments": [
+                    {
+                        "text": "uncle",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "he called the case and i'm quoting now, a judge's worst nightmare, but he noted that maryland parole boards and the facility where michael serious was held, the institution made what the judge called the final decision on whether to release serious.",
+        "events_info": [
+            {
+                "trigger_text": "release",
+                "event_type": "Justice:Release-Parole",
+                "arguments": [
+                    {
+                        "text": "serious",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "boards",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "facility",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "the jury has handed down a $30 million, a grand rapids jury saying taco bell has to pay the true creators of the chihuahua mass cot.",
+        "events_info": [
+            {
+                "trigger_text": "pay",
+                "event_type": "Justice:Fine",
+                "arguments": [
+                    {
+                        "text": "taco bell",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "jury",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "But after spending 40 days in prison, Jordan's King Abdullah II pardoned the former legislator known for her harsh criticism of the state.",
+        "events_info": [
+            {
+                "trigger_text": "pardoned",
+                "event_type": "Justice:Pardon",
+                "arguments": [
+                    {
+                        "text": "legislator",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "Jordan",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Abdullah II",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "they appealed to the supreme court on behalf of these two people.",
+        "events_info": [
+            {
+                "trigger_text": "appealed",
+                "event_type": "Justice:Appeal",
+                "arguments": [
+                    {
+                        "text": "supreme court",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "they",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "people",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": " waiver of extradition means what",
+        "events_info": [
+            {
+                "trigger_text": "extradition",
+                "event_type": "Justice:Extradite",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "sentence": "Nathan divorced wallpaper salesman Bruce Nathan in 1992.",
+        "events_info": [
+            {
+                "trigger_text": "divorced",
+                "event_type": "Life:Divorce",
+                "arguments": [
+                    {
+                        "text": "Nathan",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Bruce Nathan",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In the latest edition, staff writer Jeremy M. Lazarus reports that the Legislative Black Caucus celebrated killing a bill that would have merged the Department of Minority Business Enterprise (DMBE) with the Department of Business Assistance (DBA).",
+        "events_info": [
+            {
+                "trigger_text": "merged",
+                "event_type": "Business:Merge-Org",
+                "arguments": [
+                    {
+                        "text": "Department of Minority Business Enterprise",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "Department of Business Assistance",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "One defendant was acquitted, while the court sent four other cases back to police for further investigation.",
+        "events_info": [
+            {
+                "trigger_text": "acquitted",
+                "event_type": "Justice:Acquit",
+                "arguments": [
+                    {
+                        "text": "defendant",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    }
+]

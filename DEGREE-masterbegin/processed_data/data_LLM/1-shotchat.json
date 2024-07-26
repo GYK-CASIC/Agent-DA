@@ -1,0 +1,2317 @@
+[
+    {
+        "sentence": "Despite the ongoing sandstorm , the first substantial relief convoy successfully arrived in Iraq on Wednesday , with allied forces working diligently to pave the way for additional aid shipments and employing dolphins to clear mines in the waterways , while simultaneously engaging in combat with Iraqi fighters near the port of Umm Qasr .",
+        "events_info": [
+            {
+                "trigger_text": "arrived",
+                "event_type": "Movement:Transport",
+                "arguments": [
+                    {
+                        "text": "convoy",
+                        "role": "Vehicle"
+                    },
+                    {
+                        "text": "Iraq",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "port",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "forces",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Under the cover of darkness , a fleet of military helicopters arrived at the designated landing zone , transporting troops and supplies for a covert mission deep behind enemy lines .",
+        "events_info": [
+            {
+                "trigger_text": "arrived",
+                "event_type": "Movement:Transport",
+                "arguments": [
+                    {
+                        "text": "fleet",
+                        "role": "Vehicle"
+                    },
+                    {
+                        "text": "zone",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "troops",
+                        "role": "Artifact"
+                    },
+                    {
+                        "text": "supplies",
+                        "role": "Artifact"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In the aftermath of the earthquake , a team of rescue dogs arrived at the disaster site , ready to assist in locating survivors buried under the debris and rubble of collapsed buildings .",
+        "events_info": [
+            {
+                "trigger_text": "arrived",
+                "event_type": "Movement:Transport",
+                "arguments": [
+                    {
+                        "text": "team",
+                        "role": "Vehicle"
+                    },
+                    {
+                        "text": "site",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "survivors",
+                        "role": "Artifact"
+                    },
+                    {
+                        "text": "debris",
+                        "role": "Artifact"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After a long and treacherous journey , the rescue team arrived at the remote mountain village , bringing much-needed supplies and expertise to assist in the search for survivors trapped beneath the rubble .",
+        "events_info": [
+            {
+                "trigger_text": "arrived",
+                "event_type": "Movement:Transport",
+                "arguments": [
+                    {
+                        "text": "team",
+                        "role": "Vehicle"
+                    },
+                    {
+                        "text": "village",
+                        "role": "Destination"
+                    },
+                    {
+                        "text": "supplies",
+                        "role": "Artifact"
+                    },
+                    {
+                        "text": "expertise",
+                        "role": "Artifact"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following years of dedication to the company , John transitioned into a leadership role , becoming the vice president of operations and overseeing the expansion of the business into new markets .",
+        "events_info": [
+            {
+                "trigger_text": "becoming",
+                "event_type": "Personnel:Start-Position",
+                "arguments": [
+                    {
+                        "text": "John",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "company",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Upon completing her master 's degree , Emily embarked on her journey in academia , becoming a respected professor at the university and contributing significantly to research in the field of environmental science .",
+        "events_info": [
+            {
+                "trigger_text": "becoming",
+                "event_type": "Personnel:Start-Position",
+                "arguments": [
+                    {
+                        "text": "Emily",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "academia",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Having honed his skills through years of practice , David transitioned into a managerial role , becoming the director of marketing and spearheading numerous successful campaigns for the company .",
+        "events_info": [
+            {
+                "trigger_text": "becoming",
+                "event_type": "Personnel:Start-Position",
+                "arguments": [
+                    {
+                        "text": "David",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "With a passion for social causes , Sarah entered the nonprofit sector , becoming the executive director of a prominent organization and championing various initiatives to support vulnerable communities .",
+        "events_info": [
+            {
+                "trigger_text": "becoming",
+                "event_type": "Personnel:Start-Position",
+                "arguments": [
+                    {
+                        "text": "Sarah",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "nonprofit sector",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After a controversial term marked by scandals , the former CEO of the tech giant stepped down , making room for new leadership and a fresh start for the company .",
+        "events_info": [
+            {
+                "trigger_text": "former",
+                "event_type": "Personnel:End-Position",
+                "arguments": [
+                    {
+                        "text": "CEO",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "tech giant",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "leadership",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst growing discontent and internal strife , the former president of the organization resigned , prompting a search for a successor to lead the group in a new direction .",
+        "events_info": [
+            {
+                "trigger_text": "former",
+                "event_type": "Personnel:End-Position",
+                "arguments": [
+                    {
+                        "text": "president",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "organization",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "successor",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Recognized for his contributions to the field , the former head researcher at the renowned institute retired , leaving a void that would be hard to fill in the scientific community .",
+        "events_info": [
+            {
+                "trigger_text": "former",
+                "event_type": "Personnel:End-Position",
+                "arguments": [
+                    {
+                        "text": "head researcher",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "renowned institute",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "scientific community",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite his initial enthusiasm , the former captain of the team decided to step down , citing personal reasons and a desire to explore new opportunities outside of sports .",
+        "events_info": [
+            {
+                "trigger_text": "former",
+                "event_type": "Personnel:End-Position",
+                "arguments": [
+                    {
+                        "text": "captain",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "team",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "opportunities",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In response to recent provocations , two Israeli helicopter air strikes targeted Hamas facilities in Gaza , escalating tensions in the region .",
+        "events_info": [
+            {
+                "trigger_text": "strikes",
+                "event_type": "Conflict:Attack",
+                "arguments": [
+                    {
+                        "text": "Israeli",
+                        "role": "Attacker"
+                    },
+                    {
+                        "text": "Gaza",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Hamas facilities",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "Hamas facilities",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "helicopter",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst rising hostilities , two Israeli helicopter air strikes were conducted on Hamas targets in Gaza , marking a significant escalation in the conflict .",
+        "events_info": [
+            {
+                "trigger_text": "strikes",
+                "event_type": "Conflict:Attack",
+                "arguments": [
+                    {
+                        "text": "Israeli",
+                        "role": "Attacker"
+                    },
+                    {
+                        "text": "Gaza",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Hamas targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "Hamas targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "helicopter",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following intelligence reports , two Israeli helicopter air strikes were launched against key Hamas targets in Gaza , aiming to cripple the militant group 's operations .",
+        "events_info": [
+            {
+                "trigger_text": "strikes",
+                "event_type": "Conflict:Attack",
+                "arguments": [
+                    {
+                        "text": "Israeli",
+                        "role": "Attacker"
+                    },
+                    {
+                        "text": "Gaza",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Hamas targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "Hamas targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "helicopter",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst escalating tensions , two Israeli helicopter air strikes targeted Hamas facilities in Gaza , sending shockwaves through the already volatile region .",
+        "events_info": [
+            {
+                "trigger_text": "strikes",
+                "event_type": "Conflict:Attack",
+                "arguments": [
+                    {
+                        "text": "Israeli",
+                        "role": "Attacker"
+                    },
+                    {
+                        "text": "Gaza",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Hamas facilities",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "Hamas facilities",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "helicopter",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a swift military operation , two Israeli helicopter air strikes hit Hamas targets in Gaza , signaling a forceful response to the ongoing conflict .",
+        "events_info": [
+            {
+                "trigger_text": "strikes",
+                "event_type": "Conflict:Attack",
+                "arguments": [
+                    {
+                        "text": "Israeli",
+                        "role": "Attacker"
+                    },
+                    {
+                        "text": "Gaza",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Hamas targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "Hamas targets",
+                        "role": "Target"
+                    },
+                    {
+                        "text": "helicopter",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following the recent meeting in Paris where key representatives from France , Russia , and Germany convened , the decision to abstain from supporting a second resolution was made , prompting questions about the stance of other nations not present .",
+        "events_info": [
+            {
+                "trigger_text": "meeting",
+                "event_type": "Contact:Meet",
+                "arguments": [
+                    {
+                        "text": "Paris",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "France",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Russia",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Germany",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst the discussions held during the meeting in Paris involving France , Russia , and Germany , the joint choice to withhold support for a second resolution raises queries about the position of other undisclosed parties .",
+        "events_info": [
+            {
+                "trigger_text": "meeting",
+                "event_type": "Contact:Meet",
+                "arguments": [
+                    {
+                        "text": "Paris",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "France",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Russia",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Germany",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The outcome of the meeting in Paris , where representatives from France , Russia , and Germany met and opted against endorsing a second resolution , sparks speculation about the identity of the uncooperative party .",
+        "events_info": [
+            {
+                "trigger_text": "meeting",
+                "event_type": "Contact:Meet",
+                "arguments": [
+                    {
+                        "text": "Paris",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "France",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Russia",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Germany",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Questions arise following the conclusion of the meeting in Paris , where France , Russia , and Germany jointly agreed to withhold their support for a second resolution , concerning the identity of the party not present at the discussion .",
+        "events_info": [
+            {
+                "trigger_text": "meeting",
+                "event_type": "Contact:Meet",
+                "arguments": [
+                    {
+                        "text": "Paris",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "France",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Russia",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "Germany",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Regina Peruggi , Giuliani 's second cousin , became his first wife in a marriage that spanned approximately 14 years .",
+        "events_info": [
+            {
+                "trigger_text": "marriage",
+                "event_type": "Life:Marry",
+                "arguments": [
+                    {
+                        "text": "Giuliani",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "cousin",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite their cultural differences , the renowned author 's marriage to a French diplomat flourished for over two decades , showcasing the beauty of love transcending boundaries .",
+        "events_info": [
+            {
+                "trigger_text": "marriage",
+                "event_type": "Life:Marry",
+                "arguments": [
+                    {
+                        "text": "author",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "diplomat",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After a whirlwind romance , the famous actress 's marriage to her childhood sweetheart became a symbol of enduring love and commitment , captivating fans worldwide .",
+        "events_info": [
+            {
+                "trigger_text": "marriage",
+                "event_type": "Life:Marry",
+                "arguments": [
+                    {
+                        "text": "actress",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "sweetheart",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst societal pressures , the musician 's marriage to an artist from a different background stood strong , defying all odds and inspiring others with its resilience .",
+        "events_info": [
+            {
+                "trigger_text": "marriage",
+                "event_type": "Life:Marry",
+                "arguments": [
+                    {
+                        "text": "musician",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "artist",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a union of two souls , the professor 's marriage to a fellow academician blossomed into a partnership of intellectual growth and mutual respect , shaping their shared journey .",
+        "events_info": [
+            {
+                "trigger_text": "marriage",
+                "event_type": "Life:Marry",
+                "arguments": [
+                    {
+                        "text": "professor",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "academician",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "According to sources familiar with Arafat 's financial dealings , $ 200,000 was regularly sent by the Palestinian leader from the Palestinian Authority 's budget for the Office of the President to Suha , his wife .",
+        "events_info": [
+            {
+                "trigger_text": "sent",
+                "event_type": "Transaction:Transfer-Money",
+                "arguments": [
+                    {
+                        "text": "leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Palestinian leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Office",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Suha",
+                        "role": "Recipient"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Sources close to Arafat 's financial affairs disclose that a monthly sum of $ 200,000 was sent by the Palestinian leader from the Palestinian Authority 's budget for the Office of the President to Suha , his beneficiary .",
+        "events_info": [
+            {
+                "trigger_text": "sent",
+                "event_type": "Transaction:Transfer-Money",
+                "arguments": [
+                    {
+                        "text": "leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Palestinian leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Office",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Suha",
+                        "role": "Recipient"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Those familiar with Arafat 's financial management affirm that $ 200,000 was regularly sent by the Palestinian leader from the Palestinian Authority 's budget allocated for the Office of the President to Suha , his recipient .",
+        "events_info": [
+            {
+                "trigger_text": "sent",
+                "event_type": "Transaction:Transfer-Money",
+                "arguments": [
+                    {
+                        "text": "leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Palestinian leader",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Office",
+                        "role": "Giver"
+                    },
+                    {
+                        "text": "Suha",
+                        "role": "Recipient"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "At 6:21 Eastern Time , equivalent to 2:21 p.m. in Iraq , Iraqi citizens gathered outside a Baghdad mosque to peacefully demonstrate against the perceived U.S. occupation , emphasizing the necessity for any future Iraqi government to truly reflect the will of the people .",
+        "events_info": [
+            {
+                "trigger_text": "demonstrate",
+                "event_type": "Conflict:Demonstrate",
+                "arguments": [
+                    {
+                        "text": "mosque",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "citizens",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "As the clock struck 6:21 in the Eastern Time Zone , equivalent to 2:21 p.m. in Iraq , Iraqi protesters gathered outside a Baghdad mosque to demonstrate against what they perceive as the U.S. occupation , asserting the necessity for a future Iraqi government that is representative of the people .",
+        "events_info": [
+            {
+                "trigger_text": "demonstrate",
+                "event_type": "Conflict:Demonstrate",
+                "arguments": [
+                    {
+                        "text": "mosque",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "protesters",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a recent announcement , it was revealed that Hewlett Packard is in the process of shutting down its manufacturing plant in Eugene , a decision that has drawn mixed reactions from the community and industry experts .",
+        "events_info": [
+            {
+                "trigger_text": "shutting",
+                "event_type": "Business:End-Org",
+                "arguments": [
+                    {
+                        "text": "Eugene",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "plant",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The closure of Hewlett Packard 's Eugene plant signifies a significant shift in the company 's operations , as the decision to shut down this facility reflects the changing landscape of the technology industry .",
+        "events_info": [
+            {
+                "trigger_text": "down",
+                "event_type": "Business:End-Org",
+                "arguments": [
+                    {
+                        "text": "Eugene",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "plant",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst the news of Hewlett Packard 's Eugene plant shutting down , SUN Micro systems ' absence from Oregon further highlights the evolving dynamics of the tech sector , prompting discussions about the future of these once-prominent organizations .",
+        "events_info": [
+            {
+                "trigger_text": "shutting",
+                "event_type": "Business:End-Org",
+                "arguments": [
+                    {
+                        "text": "Eugene",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "plant",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Larry Klayman , chairman of Judicial Watch , revealed that his organization has initiated a lawsuit against Iraq in Washington , seeking $ 1.5 billion in damages on behalf of 14 survivors and victims ' relatives .",
+        "events_info": [
+            {
+                "trigger_text": "lawsuit",
+                "event_type": "Justice:Sue",
+                "arguments": [
+                    {
+                        "text": "Iraq",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "Washington",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "relatives",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "survivors",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "If only an armed civilian had been present inside the mall , he might have been able to intervene before the suspect started injuring people and before he exhausted his supply of ammo .",
+        "events_info": [
+            {
+                "trigger_text": "injuring",
+                "event_type": "Life:Injure",
+                "arguments": [
+                    {
+                        "text": "people",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "ammo",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "suspect",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "mall",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "During the house clearance operation Royal Marine style , troops from ( UNINTELLIGIBLE ) commando task force conducted a thorough search in Umm Qasr to apprehend suspected regime sympathizers , employing a decisive approach to arrest individuals believed to be aiding the resistance movement .",
+        "events_info": [
+            {
+                "trigger_text": "arrest",
+                "event_type": "Justice:Arrest-Jail",
+                "arguments": [
+                    {
+                        "text": "sympathizers",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Umm Qasr",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "troops",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The Maharashtra officials have devised a fraudulent plan to sell the cutting-edge power plant , which an international company built for them , back to themselves at a fraction of its true value , exploiting the company 's lack of legal recourse and banking on the lengthy international arbitration process .",
+        "events_info": [
+            {
+                "trigger_text": "sell",
+                "event_type": "Transaction:Transfer-Ownership",
+                "arguments": [
+                    {
+                        "text": "plant",
+                        "role": "Artifact"
+                    },
+                    {
+                        "text": "company",
+                        "role": "Seller"
+                    },
+                    {
+                        "text": "them",
+                        "role": "Buyer"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst the courtroom drama , the judge , defense attorneys , and prosecutors unanimously decide to halt the hearings upon uncovering evidence that Coleman perjured himself and harbors racist beliefs .",
+        "events_info": [
+            {
+                "trigger_text": "hearings",
+                "event_type": "Justice:Trial-Hearing",
+                "arguments": [
+                    {
+                        "text": "judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "prosecutors",
+                        "role": "Prosecutor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The judge , defense attorneys , and prosecutors collectively agree to terminate the hearings after confirming that Coleman provided false testimony under oath and holds discriminatory views , marking a pivotal moment in the trial .",
+        "events_info": [
+            {
+                "trigger_text": "hearings",
+                "event_type": "Justice:Trial-Hearing",
+                "arguments": [
+                    {
+                        "text": "judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "prosecutors",
+                        "role": "Prosecutor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a rare display of unity , the judge , defense attorneys , and prosecutors decide to bring the hearings to a halt following the revelation of Coleman 's perjury and racist inclinations , shifting the course of the trial significantly .",
+        "events_info": [
+            {
+                "trigger_text": "hearings",
+                "event_type": "Justice:Trial-Hearing",
+                "arguments": [
+                    {
+                        "text": "judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "prosecutors",
+                        "role": "Prosecutor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The judge , defense attorneys , and prosecutors unanimously reach a pivotal decision to suspend the hearings after uncovering irrefutable evidence of Coleman 's false testimony and racist beliefs , altering the trajectory of the trial .",
+        "events_info": [
+            {
+                "trigger_text": "hearings",
+                "event_type": "Justice:Trial-Hearing",
+                "arguments": [
+                    {
+                        "text": "judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "prosecutors",
+                        "role": "Prosecutor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "A Lusaka magistrate sternly addressed the lawyer representing former Zambian president Frederick Chiluba as the client was absent from court on theft charges , prompting the magistrate to take action .",
+        "events_info": [
+            {
+                "trigger_text": "charges",
+                "event_type": "Justice:Charge-Indict",
+                "arguments": [
+                    {
+                        "text": "client",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "magistrate",
+                        "role": "Prosecutor"
+                    },
+                    {
+                        "text": "court",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst theft charges against former Zambian president Frederick Chiluba , a Lusaka magistrate rebuked the lawyer for the client 's absence in court , emphasizing the importance of timely legal proceedings .",
+        "events_info": [
+            {
+                "trigger_text": "charges",
+                "event_type": "Justice:Charge-Indict",
+                "arguments": [
+                    {
+                        "text": "client",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "magistrate",
+                        "role": "Prosecutor"
+                    },
+                    {
+                        "text": "court",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The jury unanimously convicted the suspect of first-degree murder after a lengthy trial , resulting in a life sentence without parole .",
+        "events_info": [
+            {
+                "trigger_text": "convicted",
+                "event_type": "Justice:Convict",
+                "arguments": [
+                    {
+                        "text": "jury",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "suspect",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The jury sentenced the defendant to life in prison for his heinous crimes .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "The jury",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the defendant",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a landmark ruling , the judge sentenced the notorious criminal to the maximum penalty allowed by law .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the judge sentenced",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The court sentenced the embezzler to restitution and community service as part of his punishment .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "The court",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the embezzler",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following a fair trial , the magistrate sentenced the accused to a period of probation and counseling .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the magistrate",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the magistrate",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the defense 's plea for leniency , the judge sentenced the convicted felon to the maximum term of imprisonment .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the defense",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the defense 's",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In 2003 , my uncle made the difficult decision to declare bankruptcy , a process that concluded in June 2004 , marking the closure of his financial case .",
+        "events_info": [
+            {
+                "trigger_text": "bankruptcy",
+                "event_type": "Business:Declare-Bankruptcy",
+                "arguments": [
+                    {
+                        "text": "uncle",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The judge emphasized that although he considered it a judge 's worst nightmare , the final decision on Michael Serious 's release rested with the Maryland parole boards and the correctional facility where Serious was incarcerated .",
+        "events_info": [
+            {
+                "trigger_text": "release",
+                "event_type": "Justice:Release-Parole",
+                "arguments": [
+                    {
+                        "text": "Serious",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "boards",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "facility",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In his statement , he described the situation as a judge 's worst nightmare , pointing out that the Maryland parole boards and the facility housing Michael Serious were responsible for making the ultimate call on Serious 's release .",
+        "events_info": [
+            {
+                "trigger_text": "release",
+                "event_type": "Justice:Release-Parole",
+                "arguments": [
+                    {
+                        "text": "Serious",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "boards",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "facility",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Labeling it as a judge 's worst nightmare , he stressed that the decision to release Michael Serious lay in the hands of the Maryland parole boards and the facility where Serious was being detained .",
+        "events_info": [
+            {
+                "trigger_text": "release",
+                "event_type": "Justice:Release-Parole",
+                "arguments": [
+                    {
+                        "text": "Serious",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "boards",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "facility",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "He categorized the situation as a judge 's worst nightmare , specifying that the decision regarding Michael Serious 's release was within the jurisdiction of the Maryland parole boards and the correctional facility where Serious was being held .",
+        "events_info": [
+            {
+                "trigger_text": "release",
+                "event_type": "Justice:Release-Parole",
+                "arguments": [
+                    {
+                        "text": "Serious",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "boards",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "facility",
+                        "role": "Entity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following the ruling , a grand rapids jury has ordered taco bell to pay a $ 30 million fine for infringing on the intellectual property rights of the true creators of the chihuahua mascot .",
+        "events_info": [
+            {
+                "trigger_text": "pay",
+                "event_type": "Justice:Fine",
+                "arguments": [
+                    {
+                        "text": "taco bell",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "jury",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "A $ 30 million fine has been imposed on taco bell by the grand rapids jury , requiring the company to pay for infringing on the intellectual property rights of the true creators of the chihuahua mascot .",
+        "events_info": [
+            {
+                "trigger_text": "pay",
+                "event_type": "Justice:Fine",
+                "arguments": [
+                    {
+                        "text": "taco bell",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "jury",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Due to the jury 's decision , taco bell has been fined $ 30 million for the unauthorized use of the chihuahua mascot , with the grand rapids jury ordering the company to pay the true creators as compensation .",
+        "events_info": [
+            {
+                "trigger_text": "pay",
+                "event_type": "Justice:Fine",
+                "arguments": [
+                    {
+                        "text": "taco bell",
+                        "role": "Entity"
+                    },
+                    {
+                        "text": "jury",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following a 40-day imprisonment , the former legislator , widely recognized for her vocal dissent against the state , was eventually pardoned by Jordan 's King Abdullah II , demonstrating a gesture of clemency and reconciliation .",
+        "events_info": [
+            {
+                "trigger_text": "pardoned",
+                "event_type": "Justice:Pardon",
+                "arguments": [
+                    {
+                        "text": "legislator",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "Jordan",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "Abdullah II",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The concept of extradition refers to the legal process of transferring individuals accused of crimes from one jurisdiction to another for trial and prosecution .",
+        "events_info": [
+            {
+                "trigger_text": "extradition",
+                "event_type": "Justice:Extradite",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "sentence": "In legal terms , extradition is the action of one sovereign state delivering a person accused or convicted of a crime in another state back to the requesting state 's jurisdiction .",
+        "events_info": [
+            {
+                "trigger_text": "extradition",
+                "event_type": "Justice:Extradite",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "sentence": "The extradition process involves the surrender of an individual by one state to another for prosecution or punishment , typically in cases involving criminal offenses .",
+        "events_info": [
+            {
+                "trigger_text": "extradition",
+                "event_type": "Justice:Extradite",
+                "arguments": []
+            }
+        ]
+    },
+    {
+        "sentence": "In 1992 , Nathan officially divorced his former spouse , Bruce Nathan , ending their marriage .",
+        "events_info": [
+            {
+                "trigger_text": "divorced",
+                "event_type": "Life:Divorce",
+                "arguments": [
+                    {
+                        "text": "Nathan",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Nathan officially",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite facing numerous challenges , the environmental group filed a groundbreaking lawsuit against the government for failing to protect endangered species , marking a significant step towards conservation efforts .",
+        "events_info": [
+            {
+                "trigger_text": "lawsuit",
+                "event_type": "Justice:Sue",
+                "arguments": [
+                    {
+                        "text": "government",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "species",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "group",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst growing tensions , the labor union initiated a lawsuit against the corporation for unfair labor practices , seeking justice and fair treatment for its members .",
+        "events_info": [
+            {
+                "trigger_text": "lawsuit",
+                "event_type": "Justice:Sue",
+                "arguments": [
+                    {
+                        "text": "corporation",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "union",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "members",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a bold move , the advocacy group launched a lawsuit against the pharmaceutical company for price gouging , aiming to hold the company accountable for their actions and protect consumer rights .",
+        "events_info": [
+            {
+                "trigger_text": "lawsuit",
+                "event_type": "Justice:Sue",
+                "arguments": [
+                    {
+                        "text": "company",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "advocacy group",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "consumer rights",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite facing financial constraints , the nonprofit organization decided to pursue a lawsuit against the city council for violating zoning regulations , standing up for community interests and urban planning principles .",
+        "events_info": [
+            {
+                "trigger_text": "lawsuit",
+                "event_type": "Justice:Sue",
+                "arguments": [
+                    {
+                        "text": "city council",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "nonprofit organization",
+                        "role": "Plaintiff"
+                    },
+                    {
+                        "text": "community interests",
+                        "role": "Plaintiff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "As the fire spread rapidly through the residential neighborhood , it started injuring several residents trapped in their homes , prompting a swift evacuation by the firefighters .",
+        "events_info": [
+            {
+                "trigger_text": "injuring",
+                "event_type": "Life:Injure",
+                "arguments": [
+                    {
+                        "text": "residents",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "fire",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "neighborhood",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "firefighters",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The wild animal went on a rampage , injuring several tourists in the national park before the rangers could tranquilize it and prevent further harm .",
+        "events_info": [
+            {
+                "trigger_text": "injuring",
+                "event_type": "Life:Injure",
+                "arguments": [
+                    {
+                        "text": "tourists",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "wild animal",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "national park",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "rangers",
+                        "role": "Instrument"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the safety measures in place , a malfunction in the amusement park ride led to it injuring multiple thrill-seekers , resulting in an investigation by the authorities .",
+        "events_info": [
+            {
+                "trigger_text": "injuring",
+                "event_type": "Life:Injure",
+                "arguments": [
+                    {
+                        "text": "thrill-seekers",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "ride",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "malfunction",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "amusement park",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amid growing public outcry , the authorities moved swiftly to arrest the corrupt officials implicated in the bribery scandal , restoring faith in the justice system .",
+        "events_info": [
+            {
+                "trigger_text": "arrest",
+                "event_type": "Justice:Arrest-Jail",
+                "arguments": [
+                    {
+                        "text": "officials",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "bribery scandal",
+                        "role": "Place"
+                    },
+                    {
+                        "text": "authorities",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The renowned tech mogul announced plans to create a groundbreaking research institute in collaboration with leading universities worldwide , aiming to revolutionize the field of artificial intelligence .",
+        "events_info": [
+            {
+                "trigger_text": "create",
+                "event_type": "Business:Start-Org",
+                "arguments": [
+                    {
+                        "text": "institute",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "universities",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "field",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst the economic downturn , the government decided to create a special task force composed of experts in finance and policy to address the financial crisis and stabilize the market .",
+        "events_info": [
+            {
+                "trigger_text": "create",
+                "event_type": "Business:Start-Org",
+                "arguments": [
+                    {
+                        "text": "force",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "experts",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "crisis",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Recognizing the need for environmental conservation , a group of environmentalists and scientists have come together to create an international coalition aimed at protecting endangered species and preserving habitats .",
+        "events_info": [
+            {
+                "trigger_text": "create",
+                "event_type": "Business:Start-Org",
+                "arguments": [
+                    {
+                        "text": "coalition",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "environmentalists",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "species",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Inspired by the success of their previous initiatives , the philanthropic foundation decided to create a new scholarship program to support underprivileged students pursuing higher education , with the goal of fostering future leaders .",
+        "events_info": [
+            {
+                "trigger_text": "create",
+                "event_type": "Business:Start-Org",
+                "arguments": [
+                    {
+                        "text": "program",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "foundation",
+                        "role": "Agent"
+                    },
+                    {
+                        "text": "students",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "The small village of Grafton , Vermont , was the place where the famous American author Rudyard Kipling was born on December 30 , 1865 , a momentous occasion that marked the beginning of his literary legacy .",
+        "events_info": [
+            {
+                "trigger_text": "born",
+                "event_type": "Life:Be-Born",
+                "arguments": [
+                    {
+                        "text": "Rudyard Kipling",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Grafton ,",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a humble cottage in Stratford-upon-Avon , the legendary playwright William Shakespeare was born on April 23 , 1564 , heralding the start of a remarkable literary era that continues to influence the world .",
+        "events_info": [
+            {
+                "trigger_text": "born",
+                "event_type": "Life:Be-Born",
+                "arguments": [
+                    {
+                        "text": "William Shakespeare",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Stratford-upon-Avon",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "On a sunny day in Corsica , the visionary military leader Napoleon Bonaparte was born on August 15 , 1769 , shaping the course of European history with his strategic brilliance and ambition .",
+        "events_info": [
+            {
+                "trigger_text": "born",
+                "event_type": "Life:Be-Born",
+                "arguments": [
+                    {
+                        "text": "Napoleon Bonaparte",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Corsica",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst the lush greenery of Tuscany , the renowned artist Leonardo da Vinci was born on April 15 , 1452 , a pivotal moment that laid the foundation for his unparalleled contributions to art , science , and innovation .",
+        "events_info": [
+            {
+                "trigger_text": "born",
+                "event_type": "Life:Be-Born",
+                "arguments": [
+                    {
+                        "text": "Leonardo da Vinci",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Tuscany",
+                        "role": "Place"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the lack of physical evidence , the judge convicted the defendant of embezzlement based on compelling witness testimonies and financial records , leading to a significant prison sentence .",
+        "events_info": [
+            {
+                "trigger_text": "convicted",
+                "event_type": "Justice:Convict",
+                "arguments": [
+                    {
+                        "text": "judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "defendant",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following a thorough investigation , the prosecutor successfully convicted the notorious gang leader of multiple counts of racketeering , ensuring that justice was served for the victims and their families .",
+        "events_info": [
+            {
+                "trigger_text": "convicted",
+                "event_type": "Justice:Convict",
+                "arguments": [
+                    {
+                        "text": "prosecutor",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "gang leader",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amid intense media scrutiny , the magistrate convicted the corrupt politician of bribery charges , sending a strong message against political corruption and restoring public trust in the justice system .",
+        "events_info": [
+            {
+                "trigger_text": "convicted",
+                "event_type": "Justice:Convict",
+                "arguments": [
+                    {
+                        "text": "magistrate",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "politician",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the defense 's compelling arguments , the jury convicted the fraudster of securities fraud , highlighting the importance of upholding financial regulations and protecting investors from fraudulent schemes .",
+        "events_info": [
+            {
+                "trigger_text": "convicted",
+                "event_type": "Justice:Convict",
+                "arguments": [
+                    {
+                        "text": "jury",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "fraudster",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After a lengthy trial , the judge sentenced the notorious gang leader to 50 years in federal prison , marking a significant victory for law enforcement .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the judge",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the judge sentenced",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following the plea deal , the court sentenced the embezzler to community service and mandatory restitution , allowing her a chance to make amends for her financial crimes .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the plea",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the plea",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a controversial ruling , the magistrate sentenced the corrupt politician to house arrest , prompting public outcry and debates on judicial leniency .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the magistrate",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the magistrate sentenced",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the defense 's impassioned plea , the jury sentenced the drug kingpin to the maximum penalty of life imprisonment without parole , ensuring he would never harm society again .",
+        "events_info": [
+            {
+                "trigger_text": "sentenced",
+                "event_type": "Justice:Sentence",
+                "arguments": [
+                    {
+                        "text": "the defense",
+                        "role": "Adjudicator"
+                    },
+                    {
+                        "text": "the defense 's",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After years of struggling to keep the business afloat , the company owner had no choice but to file for bankruptcy , a decision that would have long-lasting financial implications for the employees and stakeholders .",
+        "events_info": [
+            {
+                "trigger_text": "bankruptcy",
+                "event_type": "Business:Declare-Bankruptcy",
+                "arguments": [
+                    {
+                        "text": "owner",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following a series of financial setbacks , the once-thriving corporation had to resort to declaring bankruptcy , a move that sent shockwaves through the industry and left many questioning its future .",
+        "events_info": [
+            {
+                "trigger_text": "bankruptcy",
+                "event_type": "Business:Declare-Bankruptcy",
+                "arguments": [
+                    {
+                        "text": "corporation",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst mounting debts and declining revenues , the family-owned business reluctantly announced its decision to declare bankruptcy , a heartbreaking development that would impact generations to come .",
+        "events_info": [
+            {
+                "trigger_text": "bankruptcy",
+                "event_type": "Business:Declare-Bankruptcy",
+                "arguments": [
+                    {
+                        "text": "business",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In the aftermath of a failed expansion strategy , the retail giant faced no other option but to declare bankruptcy , a humbling experience that reshaped the company 's leadership and operations .",
+        "events_info": [
+            {
+                "trigger_text": "bankruptcy",
+                "event_type": "Business:Declare-Bankruptcy",
+                "arguments": [
+                    {
+                        "text": "giant",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the severity of his crime , the notorious gang leader was surprisingly pardoned by the governor , sparking public outrage and debates on the justice system 's leniency .",
+        "events_info": [
+            {
+                "trigger_text": "pardoned",
+                "event_type": "Justice:Pardon",
+                "arguments": [
+                    {
+                        "text": "leader",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "governor",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a historic move , the president posthumously pardoned the civil rights activist who was wrongfully convicted decades ago , acknowledging the grave injustice and offering closure to the activist 's family .",
+        "events_info": [
+            {
+                "trigger_text": "pardoned",
+                "event_type": "Justice:Pardon",
+                "arguments": [
+                    {
+                        "text": "activist",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "president",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst growing calls for reform , the prime minister pardoned a group of political prisoners , signaling a shift in the government 's stance on dissent and human rights issues .",
+        "events_info": [
+            {
+                "trigger_text": "pardoned",
+                "event_type": "Justice:Pardon",
+                "arguments": [
+                    {
+                        "text": "prisoners",
+                        "role": "Defendant"
+                    },
+                    {
+                        "text": "prime minister",
+                        "role": "Adjudicator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After years of counseling and attempts to reconcile , Sarah finally divorced her long-time partner , Mark , marking the end of their tumultuous relationship .",
+        "events_info": [
+            {
+                "trigger_text": "divorced",
+                "event_type": "Life:Divorce",
+                "arguments": [
+                    {
+                        "text": "Sarah",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Mark",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following a series of misunderstandings and growing apart , Emily and James mutually agreed to get divorced , realizing that their marriage was no longer sustainable .",
+        "events_info": [
+            {
+                "trigger_text": "divorced",
+                "event_type": "Life:Divorce",
+                "arguments": [
+                    {
+                        "text": "Emily",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "James",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a surprising turn of events , Samantha unexpectedly divorced her high school sweetheart , Alex , shocking their friends and family with the sudden announcement .",
+        "events_info": [
+            {
+                "trigger_text": "divorced",
+                "event_type": "Life:Divorce",
+                "arguments": [
+                    {
+                        "text": "Samantha",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Alex",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite their efforts to work through their differences , Jessica and Michael ultimately decided to get divorced , acknowledging that their values and goals had diverged over time .",
+        "events_info": [
+            {
+                "trigger_text": "divorced",
+                "event_type": "Life:Divorce",
+                "arguments": [
+                    {
+                        "text": "Jessica",
+                        "role": "Person"
+                    },
+                    {
+                        "text": "Michael",
+                        "role": "Person"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite initial concerns , the two rival advertising agencies finally merged , combining their creative talents and client bases to form a stronger , more competitive entity in the industry .",
+        "events_info": [
+            {
+                "trigger_text": "merged",
+                "event_type": "Business:Merge-Org",
+                "arguments": [
+                    {
+                        "text": "advertising agencies",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "creative talents and client bases",
+                        "role": "Artifact"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Following months of negotiations , the pharmaceutical company and the biotech startup successfully merged , pooling their resources and research expertise to accelerate the development of life-saving medications .",
+        "events_info": [
+            {
+                "trigger_text": "merged",
+                "event_type": "Business:Merge-Org",
+                "arguments": [
+                    {
+                        "text": "pharmaceutical company",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "biotech startup",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst market challenges , the leading tech giants merged their cloud computing divisions , aiming to leverage synergies and technological advancements for enhanced service delivery and innovation .",
+        "events_info": [
+            {
+                "trigger_text": "merged",
+                "event_type": "Business:Merge-Org",
+                "arguments": [
+                    {
+                        "text": "tech giants",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "cloud computing divisions",
+                        "role": "Artifact"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a strategic move , the fashion conglomerate and luxury brand merged , consolidating their design expertise and global reach to redefine luxury fashion trends and capture new markets .",
+        "events_info": [
+            {
+                "trigger_text": "merged",
+                "event_type": "Business:Merge-Org",
+                "arguments": [
+                    {
+                        "text": "fashion conglomerate",
+                        "role": "Org"
+                    },
+                    {
+                        "text": "luxury brand",
+                        "role": "Org"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the overwhelming evidence presented by the prosecution , the judge ultimately acquitted the high-profile celebrity of all charges , causing a stir in the courtroom .",
+        "events_info": [
+            {
+                "trigger_text": "acquitted",
+                "event_type": "Justice:Acquit",
+                "arguments": [
+                    {
+                        "text": "celebrity",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After a lengthy trial filled with twists and turns , the jury surprised everyone when they unanimously acquitted the young activist , bringing tears of relief to her supporters .",
+        "events_info": [
+            {
+                "trigger_text": "acquitted",
+                "event_type": "Justice:Acquit",
+                "arguments": [
+                    {
+                        "text": "activist",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In a stunning turn of events , the judge acquitted the accused mob boss , much to the dismay of the prosecution team who had worked tirelessly to secure a conviction .",
+        "events_info": [
+            {
+                "trigger_text": "acquitted",
+                "event_type": "Justice:Acquit",
+                "arguments": [
+                    {
+                        "text": "mob boss",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amidst heated debates and legal battles , the jury finally acquitted the controversial politician , causing a mix of celebration and outrage in the public sphere .",
+        "events_info": [
+            {
+                "trigger_text": "acquitted",
+                "event_type": "Justice:Acquit",
+                "arguments": [
+                    {
+                        "text": "politician",
+                        "role": "Defendant"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "After the brutal attack , the victim , stabbed multiple times in the chest , tragically died before the ambulance could reach the scene , succumbing to his severe wounds .",
+        "events_info": [
+            {
+                "trigger_text": "died",
+                "event_type": "Life:Die",
+                "arguments": [
+                    {
+                        "text": "victim",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "chest",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "ambulance",
+                        "role": "Destination"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Amid the chaos of the earthquake , the trapped miner , crushed under the rubble , tragically died as the rescue team struggled to reach him in time , succumbing to his injuries in the collapsed mine .",
+        "events_info": [
+            {
+                "trigger_text": "died",
+                "event_type": "Life:Die",
+                "arguments": [
+                    {
+                        "text": "miner",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "rubble",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "rescue team",
+                        "role": "Agent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Despite the efforts of the medical team , the elderly patient , suffering from severe internal bleeding , tragically died on the operating table , succumbing to the complications of the surgery .",
+        "events_info": [
+            {
+                "trigger_text": "died",
+                "event_type": "Life:Die",
+                "arguments": [
+                    {
+                        "text": "patient",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "internal bleeding",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "operating table",
+                        "role": "Destination"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In the heat of battle , the brave soldier , shot in the line of duty , tragically died on the battlefield , succumbing to his wounds as his comrades fought on around him .",
+        "events_info": [
+            {
+                "trigger_text": "died",
+                "event_type": "Life:Die",
+                "arguments": [
+                    {
+                        "text": "soldier",
+                        "role": "Victim"
+                    },
+                    {
+                        "text": "duty",
+                        "role": "Instrument"
+                    },
+                    {
+                        "text": "battlefield",
+                        "role": "Destination"
+                    }
+                ]
+            }
+        ]
+    }
+]
